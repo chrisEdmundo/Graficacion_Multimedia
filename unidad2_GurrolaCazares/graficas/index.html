@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        
+        <script src="jquery-3.3.1.min.js"></script>
+     
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <script src="index.js"></script>
+        
+         <style type="text/css">
+                .principal{
+                position: relative;
+                background: rgba(203, 225, 255,0.8);
+                text-align: center;
+
+            }
+                .wrapper{
+                width: 90%;
+                max-width: 1000px;
+                margin:auto;
+                overflow: hidden;
+            }
+                body{ 
+                font-family: sans-serif;
+                width:100%;
+                height:100%;
+                background:white;
+
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                color: rgb(0, 0, 0);
+
+            }
+        
+        </style>
+
+    </head>
+    <body>
+         <center>
+                  <h1> Trastornos mentales <small>estadisticas en mexico</small></h1>
+        <br>
+        </center>
+        <br>
+        <br>
+        <br>
+ <div id="principal">
+    <div class="principal wrapper">
+        <br>
+        <br>
+        <h4> El 28.6% de la población —más de uno de cada cuatro mexicanos
+            ha sufrido, al menos una vez, una enfermedad o un trastorno mentales.
+        </h4>
+        <br>
+        <br>
+        <canvas id="myChart"></canvas>
+        <br>
+        <br>
+        <br>
+        <canvas id="myChartlinas"></canvas>
+        <br>
+        <br>
+        <h5>Entre 1990 y 2015 la tasa de suicidios se duplicó en el país al pasar de 2.4 
+            por cada 100 mil habitantes a 5.4. El crecimiento es más visible entre hombres 
+            menores de 44 años.</h5>
+        <br>
+        <br>
+        <h4>porcentaje de suicidios por sexo</h4>
+        <canvas id="myChartRadar"></canvas>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4>tipos de suicidio</h4>
+        <canvas id="myChartpie"></canvas>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4>¿Como piden ayuda?</h4>
+        <canvas id="myChartPolar"></canvas>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4>Tasa de suicidiospor edades</h4>
+        <h5>por casa millon de habitantes</h5>
+        <canvas id="myChartDona"></canvas>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h5>porcentaje de suicidios en mexico</h5>
+         <canvas id="myChartBubble"></canvas>
+        
+     </div>
+ </div>
+    </body>
+
+</html>
